@@ -1,0 +1,21 @@
+2023-03-06T15:53:06+00:00 CRITICAL Uncaught Error: Call to undefined function wp_delete_user() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:345
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(18)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 18, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(354): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(174): Jet_Blocks_Handlers->create_user('safari@safari.c...', 'safari@safari.c...', 'safari@safari.c. en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 345
+
+2023-03-06T16:19:08+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:415
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api('contactoempresa...', 'contactoempresa...')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-login.php(1231): wp_signon(Array, '')
+#5 {main}
+  thrown en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 415
+
+2023-03-06T17:22:30+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 648
+

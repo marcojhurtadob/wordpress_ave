@@ -1,0 +1,12 @@
+2023-02-25T23:26:17+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 240
+
+2023-02-25T23:26:19+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 240
+
+2023-02-25T23:26:20+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 240
+
+2023-02-25T23:37:18+00:00 CRITICAL Cannot redeclare limitar_carrito_a_un_producto() (previously declared in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:246) en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 295
+
+2023-02-25T23:37:20+00:00 CRITICAL Cannot redeclare limitar_carrito_a_un_producto() (previously declared in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:246) en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 295
+
+2023-02-25T23:37:21+00:00 CRITICAL Cannot redeclare limitar_carrito_a_un_producto() (previously declared in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:246) en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 295
+

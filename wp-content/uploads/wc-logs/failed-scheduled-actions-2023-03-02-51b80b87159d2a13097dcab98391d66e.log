@@ -1,0 +1,6 @@
+03-02-2023 @ 09:21:14 - scheduled action 64 (subscription trial end) failed to finish processing due to the following exception: La acción programada para woocommerce_scheduled_subscription_trial_end no se ejecutará ya que no se han registrado llamadas.
+03-02-2023 @ 09:21:14 - action args: subscription_id: 201
+03-02-2023 @ 09:23:16 - scheduled action 73 (subscription trial end) failed to finish processing due to the following exception: La acción programada para woocommerce_scheduled_subscription_trial_end no se ejecutará ya que no se han registrado llamadas.
+03-02-2023 @ 09:23:16 - action args: subscription_id: 203
+03-02-2023 @ 18:04:11 - scheduled action 84 (subscription trial end) failed to finish processing due to the following exception: La acción programada para woocommerce_scheduled_subscription_trial_end no se ejecutará ya que no se han registrado llamadas.
+03-02-2023 @ 18:04:11 - action args: subscription_id: 313

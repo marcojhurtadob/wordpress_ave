@@ -1,0 +1,16 @@
+2023-03-07T01:19:43+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 439
+
+2023-03-07T01:19:47+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 439
+
+2023-03-07T15:14:29+00:00 CRITICAL Cannot redeclare mostrar_formulario_edicion_usuario() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:509) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 562
+
+2023-03-07T15:14:30+00:00 CRITICAL Cannot redeclare mostrar_formulario_edicion_usuario() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:509) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 562
+
+2023-03-07T15:14:33+00:00 CRITICAL Cannot redeclare mostrar_formulario_edicion_usuario() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:509) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 562
+
+2023-03-07T15:14:52+00:00 CRITICAL Cannot redeclare mostrar_formulario_edicion_usuario() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:509) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 562
+
+2023-03-07T15:15:21+00:00 CRITICAL Cannot redeclare mostrar_formulario_edicion_usuario() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:509) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 562
+
+2023-03-07T15:15:29+00:00 CRITICAL Cannot redeclare mostrar_formulario_edicion_usuario() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:509) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 562
+

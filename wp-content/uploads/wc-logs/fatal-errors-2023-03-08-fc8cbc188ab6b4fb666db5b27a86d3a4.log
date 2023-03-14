@@ -1,0 +1,361 @@
+2023-03-08T01:23:22+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:437
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api('ave', 'Ave.2023*')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(110): wp_signon()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): Jet_Blocks_Handlers->login_handler('')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 437
+
+2023-03-08T01:23:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:437
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api('ave', 'Ave.2023*')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(110): wp_signon()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): Jet_Blocks_Handlers->login_handler('')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 437
+
+2023-03-08T01:23:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:437
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api('ave', 'Ave.2023*')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(110): wp_signon()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): Jet_Blocks_Handlers->login_handler('')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 437
+
+2023-03-08T01:24:19+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:437
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api('ave', 'Ave.2023*')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(110): wp_signon()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): Jet_Blocks_Handlers->login_handler('')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 437
+
+2023-03-08T01:43:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:541
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 541
+
+2023-03-08T01:43:34+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:541
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 541
+
+2023-03-08T01:43:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:541
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 541
+
+2023-03-08T01:43:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:541
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 541
+
+2023-03-08T01:43:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:541
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 541
+
+2023-03-08T01:45:30+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:528
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 528
+
+2023-03-08T01:45:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:528
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 528
+
+2023-03-08T01:46:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:528
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 528
+
+2023-03-08T01:48:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:528
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 528
+
+2023-03-08T01:50:47+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:528
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(crear_...', 'do_shortcode_ta...', '[crear_usuario]')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[crear_usuario]')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 528
+
+2023-03-08T02:01:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(35)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 35, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(545): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T02:06:59+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(36)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 36, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(545): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T02:56:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(37)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 37, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2747): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(538): wp_create_user('email@generico....', 'email@generico....', 'email@generico....')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php( en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T02:59:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(38)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 38, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(540): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T03:06:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(39)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 39, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(541): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T03:07:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(40)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 40, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(539): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_creacion_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T03:12:53+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(41)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 41, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(537): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_registro_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T03:17:02+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:362
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(42)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 42, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(538): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): mostrar_formulario_registro_usuario('', '', 'crear_usuario')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /home/u259360998/domains/soyave.online/public en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 362
+
+2023-03-08T11:48:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:438
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api(NULL, NULL)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-login.php(1231): wp_signon(Array, '')
+#5 {main}
+  thrown en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 438
+
+2023-03-08T13:39:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:438
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api(NULL, NULL)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-login.php(1231): wp_signon(Array, '')
+#5 {main}
+  thrown en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 438
+
+2023-03-08T13:39:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:438
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api(NULL, NULL)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-login.php(1231): wp_signon(Array, '')
+#5 {main}
+  thrown en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 438
+
+2023-03-08T13:39:06+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:438
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api(NULL, NULL)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-login.php(1231): wp_signon(Array, '')
+#5 {main}
+  thrown en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 438
+
+2023-03-08T13:39:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:438
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): send_login_data_to_api('ave', 'Ave.2023*')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(67): do_action_ref_array('wp_authenticate', Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/jet-blocks/includes/class-jet-blocks-handlers.php(110): wp_signon()
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): Jet_Blocks_Handlers->login_handler('')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 438
+
+2023-03-08T14:05:20+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:05:28+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:05:30+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:05:43+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:05:59+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:06:15+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:06:31+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:06:34+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:06:47+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:07:04+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:07:20+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 923
+
+2023-03-08T14:07:23+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:07:36+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:07:57+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:08:20+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:08:35+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:08:37+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:08:57+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:09:14+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:09:30+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:09:46+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:10:02+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:10:18+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:10:33+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:10:38+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 927
+
+2023-03-08T14:11:03+00:00 CRITICAL Cannot redeclare render_user_registration_form() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:529) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 608
+
+2023-03-08T14:11:22+00:00 CRITICAL Cannot redeclare render_user_registration_form() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:529) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 608
+
+2023-03-08T14:22:19+00:00 CRITICAL Cannot redeclare mostrar_lista_usuarios() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:459) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 529
+
+2023-03-08T14:25:16+00:00 CRITICAL Cannot redeclare render_user_registration_form() (previously declared in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:529) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 608
+
+2023-03-08T19:24:09+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 835
+
+2023-03-08T21:23:25+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:555
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(59)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 59, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2747): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(869): wp_create_user('admin@admintest...', 'admin@admintest...', 'admin@admintest...')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes. en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 555
+
+2023-03-08T21:24:28+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:555
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(310): send_user_data_to_api(60)
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2479): do_action('user_register', 60, Array)
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/user.php(2747): wp_insert_user(Array)
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(869): wp_create_user('admin3@admin.co...', 'admin3@admin.co...', 'admin3@admin.co...')
+#6 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes. en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 555
+
+2023-03-08T22:05:50+00:00 CRITICAL syntax error, unexpected end of file en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 823
+
+2023-03-08T22:07:36+00:00 CRITICAL syntax error, unexpected 'crear_usuario_btn' (T_STRING) en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 733
+
+2023-03-08T23:03:26+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Subscription::get_plan() in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:830
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): check_active_site('')
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/woocommerce/templates/myaccount/dashboard.php(72): do_action('woocommerce_bef...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u25936099...')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3197): wc_get_template('myaccount/dashb...', Array)
+#6 /home/u2 en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 830
+

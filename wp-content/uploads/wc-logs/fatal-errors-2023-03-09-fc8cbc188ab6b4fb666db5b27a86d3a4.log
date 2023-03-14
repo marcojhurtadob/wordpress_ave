@@ -1,0 +1,68 @@
+2023-03-09T16:00:16+00:00 CRITICAL Uncaught DOMException: Wrong Document Error in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:545
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php(545): DOMNode->appendChild(Object(DOMElement))
+#1 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#6 / en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 545
+
+2023-03-09T16:04:16+00:00 CRITICAL Uncaught Error: Call to a member function getAttribute() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:520
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /ho en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 520
+
+2023-03-09T16:04:27+00:00 CRITICAL Uncaught Error: Call to a member function getAttribute() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:520
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /ho en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 520
+
+2023-03-09T16:06:32+00:00 CRITICAL Uncaught Error: Call to a member function setAttribute() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:537
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /ho en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 537
+
+2023-03-09T16:07:00+00:00 CRITICAL Uncaught Error: Call to a member function setAttribute() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:537
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /ho en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 537
+
+2023-03-09T16:20:40+00:00 CRITICAL Uncaught Error: Call to a member function getElementsByTagName() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:532
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 532
+
+2023-03-09T16:21:54+00:00 CRITICAL Uncaught Error: Call to a member function getElementsByTagName() on null in /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php:532
+Stack trace:
+#0 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(355): convert_table_to_vertical_header('', '', 'convert_table_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u259360998/domains/soyave.online/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(conver...', 'do_shortcode_ta...', '<p>[convert_tab...')
+#3 /home/u259360998/domains/soyave.online/public_html/wp-content/plugins/yith-woocommerce-customize-myaccount-page/includes/class-yith-wcmap-frontend.php(311): do_shortcode('<p>[convert_tab...')
+#4 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(308): YITH_WCMAP_Frontend->print_endpoint_content('')
+#5 /home/u259360998/domains/soyave.online/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array en /home/u259360998/domains/soyave.online/public_html/wp-content/themes/hello-elementor/functions.php en la línea 532
+

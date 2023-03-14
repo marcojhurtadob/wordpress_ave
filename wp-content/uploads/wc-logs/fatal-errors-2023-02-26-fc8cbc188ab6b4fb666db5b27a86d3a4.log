@@ -1,0 +1,8 @@
+2023-02-26T18:26:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_specific_checkout_error(), 1 passed in /home/u259360998/domains/onlati.host/public_html/wp-includes/class-wp-hook.php on line 308 and exactly 2 expected in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:261
+Stack trace:
+#0 /home/u259360998/domains/onlati.host/public_html/wp-includes/class-wp-hook.php(308): remove_specific_checkout_error('<a href="https:...')
+#1 /home/u259360998/domains/onlati.host/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters('<a href="https:...', Array)
+#2 /home/u259360998/domains/onlati.host/public_html/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(87): apply_filters('woocommerce_add...', '<a href="https:...')
+#3 /home/u259360998/domains/onlati.host/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1285): wc_add_notice('<a href="https:...', 'error')
+#4 /home/u259360998/domains/onlati.host/public_html/wp-content/plugins/wo en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 261
+

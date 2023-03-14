@@ -1,0 +1,2 @@
+02-28-2023 @ 17:19:08 - scheduled action 28 (subscription trial end) failed to finish processing due to the following exception: La acción programada para woocommerce_scheduled_subscription_trial_end no se ejecutará ya que no se han registrado llamadas.
+02-28-2023 @ 17:19:08 - action args: subscription_id: 150

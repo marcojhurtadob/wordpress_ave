@@ -1,0 +1,42 @@
+2023-02-28T21:44:53+00:00 CRITICAL require_once(): Failed opening required '/home/u259360998/domains/onlati.host/public_html/wp-content/plugins/yith-woocommerce-customize-my-account-page-premium/includes/yith-wcmap-functions-premium.php' (include_path='.:/opt/alt/php74/usr/share/pear') en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 269
+
+2023-02-28T21:45:00+00:00 CRITICAL require_once(): Failed opening required '/home/u259360998/domains/onlati.host/public_html/wp-content/plugins/yith-woocommerce-customize-my-account-page-premium/includes/yith-wcmap-functions-premium.php' (include_path='.:/opt/alt/php74/usr/share/pear') en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 269
+
+2023-02-28T21:57:31+00:00 CRITICAL Uncaught Error: Call to undefined function yith_wcmap_get_avatar_url() in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:293
+Stack trace:
+#0 /home/u259360998/domains/onlati.host/public_html/wp-settings.php(585): include()
+#1 /home/u259360998/domains/onlati.host/public_html/wp-config.php(109): require_once('/home/u25936099...')
+#2 /home/u259360998/domains/onlati.host/public_html/wp-load.php(50): require_once('/home/u25936099...')
+#3 /home/u259360998/domains/onlati.host/public_html/wp-admin/admin-ajax.php(22): require_once('/home/u25936099...')
+#4 {main}
+  thrown en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 293
+
+2023-02-28T21:57:32+00:00 CRITICAL Uncaught Error: Call to undefined function yith_wcmap_get_avatar_url() in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:293
+Stack trace:
+#0 /home/u259360998/domains/onlati.host/public_html/wp-settings.php(585): include()
+#1 /home/u259360998/domains/onlati.host/public_html/wp-config.php(109): require_once('/home/u25936099...')
+#2 /home/u259360998/domains/onlati.host/public_html/wp-load.php(50): require_once('/home/u25936099...')
+#3 /home/u259360998/domains/onlati.host/public_html/wp-blog-header.php(13): require_once('/home/u25936099...')
+#4 /home/u259360998/domains/onlati.host/public_html/index.php(17): require('/home/u25936099...')
+#5 {main}
+  thrown en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 293
+
+2023-02-28T21:57:46+00:00 CRITICAL Uncaught Error: Call to undefined function yith_wcmap_get_avatar_url() in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:293
+Stack trace:
+#0 /home/u259360998/domains/onlati.host/public_html/wp-settings.php(585): include()
+#1 /home/u259360998/domains/onlati.host/public_html/wp-config.php(109): require_once('/home/u25936099...')
+#2 /home/u259360998/domains/onlati.host/public_html/wp-load.php(50): require_once('/home/u25936099...')
+#3 /home/u259360998/domains/onlati.host/public_html/wp-blog-header.php(13): require_once('/home/u25936099...')
+#4 /home/u259360998/domains/onlati.host/public_html/index.php(17): require('/home/u25936099...')
+#5 {main}
+  thrown en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 293
+
+2023-02-28T21:57:48+00:00 CRITICAL Uncaught Error: Call to undefined function yith_wcmap_get_avatar_url() in /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php:293
+Stack trace:
+#0 /home/u259360998/domains/onlati.host/public_html/wp-settings.php(585): include()
+#1 /home/u259360998/domains/onlati.host/public_html/wp-config.php(109): require_once('/home/u25936099...')
+#2 /home/u259360998/domains/onlati.host/public_html/wp-load.php(50): require_once('/home/u25936099...')
+#3 /home/u259360998/domains/onlati.host/public_html/wp-admin/admin-ajax.php(22): require_once('/home/u25936099...')
+#4 {main}
+  thrown en /home/u259360998/domains/onlati.host/public_html/wp-content/themes/hello-elementor/functions.php en la línea 293
+

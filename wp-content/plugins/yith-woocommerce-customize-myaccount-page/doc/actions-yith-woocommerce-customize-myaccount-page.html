@@ -1,0 +1,219 @@
+
+
+
+
+
+<h3>includes/admin/views/single-item.php</h3>
+
+<h4> yith_wcmap_admin_before_single_item_content</h4>
+<p>Allows to render some content before the item in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $item_key Item key.</code>
+
+<code> array  $options  Item options</code>
+
+<code> string $type     Item type.</code>
+
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_admin_after_single_item_content</h4>
+<p>Allows to render some content after the item in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $item_key Item key.</code>
+
+<code> array  $options  Item options</code>
+
+<code> string $type     Item type.</code>
+
+
+</pre>
+<hr />
+
+
+<h3>includes/admin/yith-wcmap-admin-functions.php</h3>
+
+<h4> yith_wcmap_admin_before_single_item</h4>
+<p>Allows to render some content before printing the item in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $item_key Item key.</code>
+
+<code> array  $options  Item options.</code>
+
+<code> string $type     Item type.</code>
+
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_admin_after_single_item</h4>
+<p>Allows to render some content after printing the item in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $item_key Item key.</code>
+
+<code> array  $options  Item options.</code>
+
+<code> string $type     Item type.</code>
+
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-avatar.php</h3>
+
+<h4> yith_wcmap_before_avatar_ajax_action</h4>
+<p>Allows to trigger some action before applying the action to manage the avatar</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $action Action to manage the avatar.</code>
+
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-security.php</h3>
+
+<h4> yith_wcmap_after_verify_account_email</h4>
+<p>Allows to trigger some action after sending email to verify the account</p>
+<pre>
+
+</pre>
+<hr />
+
+
+<h3>includes/email/class-yith-wcmap-verify-account.php</h3>
+
+<h4> yith_wcmap_verify_account_sent_correctly</h4>
+<p>Allows to trigger some action when the email to verify the account has been sent correctly</p>
+<pre>
+
+<b>Params</b>
+
+<code> int $customer_id Customer ID.</code>
+
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_verify_account_sent_error</h4>
+<p>Allows to trigger some action when the email to verify the account has not been sent correctly</p>
+<pre>
+
+<b>Params</b>
+
+<code> int $customer_id Customer ID.</code>
+
+
+</pre>
+<hr />
+
+
+<h3>templates/ywcmap-myaccount-avatar-modal.php</h3>
+
+<h4> yith_wcmap_before_avatar_upload_form</h4>
+<p>Allows to render some content before the form to upload the avatar</p>
+<pre>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_after_avatar_upload_form</h4>
+<p>Allows to render some content after the form to upload the avatar</p>
+<pre>
+
+</pre>
+<hr />
+
+
+<h3>templates/ywcmap-myaccount-menu-group.php</h3>
+
+<h4> yith_wcmap_print_single_endpoint</h4>
+<p>Allows to render some content when printing the endpoints</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $endpoint Endpoint key.</code>
+
+<code> array  $options  Endpoint options.</code>
+
+
+</pre>
+<hr />
+
+
+<h3>templates/ywcmap-myaccount-menu.php</h3>
+
+<h4> yith_wcmap_before_endpoints_menu</h4>
+<p>Allows to render some content before the endpoints menu</p>
+<pre>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_before_endpoints_items</h4>
+<p>Allows to render some content before the endpoints items</p>
+<pre>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_print_endpoints_group</h4>
+<p>Allows to render some content when printing the endpoints group</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $endpoint Endpoint key.</code>
+
+<code> array  $options  Endpoint options.</code>
+
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_print_single_endpoint</h4>
+<p>Allows to render some content when printing the endpoints</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $endpoint Endpoint key.</code>
+
+<code> array  $options  Endpoint options.</code>
+
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_after_endpoints_items</h4>
+<p>Allows to render some content after the endpoints items</p>
+<pre>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_after_endpoints_menu</h4>
+<p>Allows to render some content after the endpoints menu</p>
+<pre>
+
+</pre>
+<hr />
+

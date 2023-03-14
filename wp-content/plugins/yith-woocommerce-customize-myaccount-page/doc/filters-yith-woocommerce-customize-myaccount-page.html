@@ -1,0 +1,1332 @@
+
+
+<h3>includes/admin/class-yith-wcmap-admin.php</h3>
+
+<h4> yith_wcmap_admin_tabs</h4>
+<p>Filter the available tabs in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $tabs Admin tabs.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_admin_panel_args</h4>
+<p>Filters the array with the arguments to build the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $args Array of arguments.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_admin_endpoints_template</h4>
+<p>Filters the array with the arguments to print the endpoints in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> array Array of arguments.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_disable_filter_media_library</h4>
+<p>Filters whether to disable filtering the media library</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $disable_filter_media_library Whether to disable filtering the media library or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/admin/yith-wcmap-admin-functions.php</h3>
+
+<h4> yith_wcmap_admin_print_single_item_args</h4>
+<p>Filters the array with the arguments needed to print the item in the plugin panel</p>
+<pre>
+
+<b>Params</b>
+
+<code> array Array of arguments.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-autoloader.php</h3>
+
+<h4> yith_wcmap_autoload_mapped_files</h4>
+<p>Filters the mapped filters to autoload</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $files Mapped files.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-avatar.php</h3>
+
+<h4> yith_wcmap_users_can_upload_avatar</h4>
+<p>Filters whether the users can upload a custom avatar</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $users_can_upload_avatar Whether the users can upload a custom avatar or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_filter_avatar_size</h4>
+<p>Filters the avatar size</p>
+<pre>
+
+<b>Params</b>
+
+<code> int $size Avatar size.</code>
+
+
+
+
+<b>Return</b>
+<code> int</code>
+
+</pre>
+<hr />
+
+<h4> ywcmap_prevent_upload_user_avatar</h4>
+<p>Filters whether to prevent the user to upload a custom avatar</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool  $prevent_upload_user_avatar Whether to prevent the user to upload a custom avatar or not.</code>
+
+<code> array $avatar_data                Data of the uploaded avatar.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-banners.php</h3>
+
+<h4> yith_wcmap_get_banners</h4>
+<p>Filters the banners list</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $banners Banners list.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_counter_banner_orders</h4>
+<p>Filters the order count in the banner</p>
+<pre>
+
+<b>Params</b>
+
+<code> int $order_count Order count.</code>
+
+
+
+
+<b>Return</b>
+<code> int</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_banner_{$counter_type}_counter_value</h4>
+<p>Filters the total count of the banner counter depending on the counter type.<br /> <code>$counter_type</code> will be replaced with the counter type of the banner</p>
+<pre>
+
+<b>Params</b>
+
+<code> int $count    Total count.</code>
+
+<code> int $customer User ID.</code>
+
+
+
+
+<b>Return</b>
+<code> int</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_banners_key</h4>
+<p>Filters the key of the banners to display</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $banners_key Key of the banners to display.</code>
+
+<code> array</code>
+
+
+
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-extended.php</h3>
+
+<h4> yith_wcmap_get_plugins_endpoints_array</h4>
+<p>Filters the compatible plugins</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $plugins Compatible plugins.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-frontend-extended.php</h3>
+
+<h4> yith_wcmap_enable_ajax_navigation_scroll</h4>
+<p>Filters whether to enable the scroll in the Ajax navigation</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $enable_ajax_navigation_scroll Whether to enable the scroll in the Ajax navigation or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_main_content_selector</h4>
+<p>Filters the main content selector in the My Account page</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $main_content_selector Main content selector.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-frontend-premium.php</h3>
+
+<h4> yith_wcmap_endpoints_group_class</h4>
+<p>Filters the CSS classes for the group in the menu</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $classes CSS classes.</code>
+
+<code> string $group   Group key.</code>
+
+<code> array  $options Item options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_print_endpoints_group_group</h4>
+<p>Filters the array of arguments needed to print the group</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $args Array of arguments.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_no_redirect_to_default</h4>
+<p>Filters whether to not redirect to the default endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $no_redirect_to_default Whether to not redirect to the default endpoint.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_default_endpoint</h4>
+<p>Filters the default endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $default_endpoint Default endpoint key.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_skip_check_for_administrators</h4>
+<p>Filters whether skip the role check for administrators</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $skip_check_for_administrators Whether skip the role check for administrators or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-frontend.php</h3>
+
+<h4> yith_wcmap_menu_items_initialized</h4>
+<p>Filters the menu items</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $menu_items Menu items.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_is_menu_item_visible</h4>
+<p>Filters whether the menu item is visible</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool   $visible Whether the menu item is visible or not.</code>
+
+<code> string $item    Item key.</code>
+
+<code> array  $options Item options.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_my_account_have_menu</h4>
+<p>Filters whether the My Account page has menu</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $my_account_have_menu Whether the My Account page has menu or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_wpautop_content</h4>
+<p>Filters whether to replace double line breaks with paragraph elements in the endpoint content</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool  $wpautop_content Whether to replace double line breaks with paragraph elements or not.</code>
+
+<code> array $endpoint        Endpoint.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_endpoint_content</h4>
+<p>Filters the endpoint content</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $content   Endpoint content.</code>
+
+<code> array  $endpoint  Endpoint.</code>
+
+<code> WP_User $customer User object.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_account_page_title</h4>
+<p>Filters the title of the My Account page</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $page_title Page title.</code>
+
+<code> array  $endpoint   Endpoint.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_custom_css_variables</h4>
+<p>Filters the custom CSS variables</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $variables Custom CSS variables.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_custom_css</h4>
+<p>Filters the custom CSS rules</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $inline_css Custom CSS rules.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_is_my_account_page</h4>
+<p>Filters whether the current page is the My Account page</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $is_myaccount Whether is the My Account page or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_myaccount_menu_template_args</h4>
+<p>Filters the array with the arguments needed for the menu template</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $args Array with arguments.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_downloads_shortcode_template</h4>
+<p>Filters the template name for the Downloads endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $template_name Template name.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_dashboard_shortcode_template</h4>
+<p>Filters the template name for the Dashboard endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $template_name Template name.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_endpoint_menu_class</h4>
+<p>Filters the CSS classes for the endpoint in the menu</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $classes  CSS classes.</code>
+
+<code> string $item    Item key.</code>
+
+<code> array  $options Item options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_print_single_endpoint_args</h4>
+<p>Filters the array of arguments needed to print the endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $args    Array of arguments.</code>
+
+<code> string $item    Item key.</code>
+
+<code> array  $options Item options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-items.php</h3>
+
+<h4> yith_wcmap_get_items</h4>
+<p>Filters the items</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $items Items.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_default_items</h4>
+<p>Filters the default items</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $default_items Default items.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_plugins_items</h4>
+<p>Filters the plugins items</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $plugins_items Plugins items.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_items_types</h4>
+<p>Filters the item types</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $item_types Item types.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_before_initialization</h4>
+<p>Filters the items before initialization</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $items Items.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_skip_add_rewrite_endpoint</h4>
+<p>Filters whether to skip rewriting endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool   $skip_add_rewrite_endpoint Whether to skip rewriting endpoint or not.</code>
+
+<code> string $key                       Endpoint key.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-security-premium.php</h3>
+
+<h4> yith_wcmap_enabled_recaptcha</h4>
+<p>Filters whether reCaptcha is enabled</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $enable_recaptcha Whether reCaptcha is enabled or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap-security.php</h3>
+
+<h4> ywcmap_skip_verification</h4>
+<p>Filters whether to skip the account verification</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $skip_verification Whether to skip account verification or not. Possible values: 'yes' or 'no' (default).</code>
+
+<code> int    $customer_id       Customer ID.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_notice_message_$context</h4>
+<p>Filters the notice message based on the context.<br /> <code>$context</code> will be replaced with the message context</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $msg Message.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/class-yith-wcmap.php</h3>
+
+<h4> yith_wcmap_is_admin_request</h4>
+<p>Filter whether the current request has been made for an admin page</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $is_admin Whether the current request has been made for an admin page or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/compatibilities/class-yith-wcmap-membership-compatibility.php</h3>
+
+<h4> yith_wcmbs_membership_history_shortcode_in_my_account</h4>
+<p>Filters the endpoint content for the integration with YITH WooCommerce Membership</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $shortcode Shortcode to use in the endpoint content.</code>
+
+<code> string $title     Shortcode title.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/compatibilities/class-yith-wcmap-request-quote-compatibility.php</h3>
+
+<h4> ywraq_my_account_my_quotes_query</h4>
+<p>Filters the array with the arguments to get the user quotes</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $attrs Array of attributes.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/compatibilities/class-yith-wcmap-wc-membership-compatibility.php</h3>
+
+<h4> yith_wcmap_print_single_endpoint_args</h4>
+<p>Filters the array of arguments needed to print the endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $args     Array of arguments.</code>
+
+<code> string $endpoint Endpoint key.</code>
+
+<code> array  $options  Endpoint options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/compatibilities/class-yith-wcmap-wishlist-compatibility.php</h3>
+
+<h4> yith_wcmap_change_wishlist_view_params</h4>
+<p>Filters the params to view the wishlist page</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $query_var_results Query var results.</code>
+
+<code> array  $params            Array of parameters.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_filter_wishlist_url</h4>
+<p>Filters whether to change the URL to view the wishlist, to view it on the My Account page</p>
+<pre>
+
+<b>Params</b>
+
+<code> bool $filter_wishlist_url Whether to change the URL to view the wishlist or not.</code>
+
+
+
+
+<b>Return</b>
+<code> bool</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/email/class-yith-wcmap-verify-account.php</h3>
+
+<h4> yith_wcmap_verify_account_email_attr</h4>
+<p>Filters the array with the attributes needed for the email template</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $atts Array of attributes.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_email_verify_account_url</h4>
+<p>Filters the URL to verify the account</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $url URL to verify the account.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_verify_account_email_plain_attr</h4>
+<p>Filters the array with the attributes needed for the plain email template</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $atts Array of attributes.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/yith-wcmap-functions-premium.php</h3>
+
+<h4> yith_wcmap_get_default_group_options</h4>
+<p>Filters the default options for new groups</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $options Group options.</code>
+
+<code> string $group   Group key.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_default_link_options</h4>
+<p>Filters the default options for new links</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $options  Link options.</code>
+
+<code> string $endpoint Endpoint link key.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>includes/yith-wcmap-functions.php</h3>
+
+<h4> yith_wcmap_get_default_endpoint_options</h4>
+<p>Filters the default options for new endpoints</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $options  Endpoint options.</code>
+
+<code> string $endpoint Endpoint key.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_current_endpoint</h4>
+<p>Filters the current active endpoint</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $current Current endpoint key.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_endpoints_list</h4>
+<p>Filters the endpoints list</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $endpoints Endpoints list.</code>
+
+<code> array $fields    Endpoints options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_endpoint_by_accepted_key</h4>
+<p>Filters the keys to get endpoints by</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $accepted_keys Accepted keys to get endpoints.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_get_endpoint_by</h4>
+<p>Filters the endpoint retrieved by a specific key</p>
+<pre>
+
+<b>Params</b>
+
+<code> array  $endpoint Endpoint retrieved.</code>
+
+<code> string $value    Endpoint key.</code>
+
+<code> string $key      Key used to get endpoint.</code>
+
+<code> array  $items    Endpoints.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>plugin-options/banners-options.php</h3>
+
+<h4> yith_wcmap_banner_counter_type_options</h4>
+<p>Filters the counter types for the banner</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $counter_types Counter types options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_panel_banners_options</h4>
+<p>Filters the options available in the Banners tab</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $banners_options Array with options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>plugin-options/general-options.php</h3>
+
+<h4> yith_wcmap_panel_general_options</h4>
+<p>Filters the options available in the General Settings tab</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $general_options Array with options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>plugin-options/icon-list.php</h3>
+
+<h4> yith_wcmap_array_icon_list</h4>
+<p>Filters the icon list to use for the endpoints</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $icon_list Icons.</code>
+
+
+
+
+</pre>
+<hr />
+
+
+<h3>plugin-options/items-options-fields.php</h3>
+
+<h4> yith_wcmap_items_options_fields</h4>
+<p>Filters the fields for the new items in the plugin panel (endpoints, groups, links)</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $fields Fields.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>plugin-options/security-options.php</h3>
+
+<h4> yith_wcmap_panel_security_options</h4>
+<p>Filters the options available in the Security Options tab</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $security_options Array with options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>plugin-options/style-options.php</h3>
+
+<h4> yith_wcmap_panel_style_options</h4>
+<p>Filters the options available in the Style Options tab</p>
+<pre>
+
+<b>Params</b>
+
+<code> array $style_options Array with options.</code>
+
+
+
+
+<b>Return</b>
+<code> array</code>
+
+</pre>
+<hr />
+
+
+<h3>templates/ywcmap-myaccount-menu-item.php</h3>
+
+<h4> yith_wcmap_endpoint_anchor_tag_class</h4>
+<p>Filters the CSS class of the endpoint link</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $css_class CSS class.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+<h4> yith_wcmap_endpoint_anchor_url</h4>
+<p>Filters the URL of the endpoint link</p>
+<pre>
+
+<b>Params</b>
+
+<code> string $url      Endpoint URL.</code>
+
+<code> string $endpoint Endpoint key.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+
+<h3>templates/ywcmap-myaccount-menu.php</h3>
+
+<h4> yith_wcmap_user_name_in_menu</h4>
+<p>Filters the username in the menu</p>
+<pre>
+
+<b>Params</b>
+
+<code> string  $username     Username to display.</code>
+
+<code> WP_User $current_user User object.</code>
+
+
+
+
+<b>Return</b>
+<code> string</code>
+
+</pre>
+<hr />
+
+
+
+
