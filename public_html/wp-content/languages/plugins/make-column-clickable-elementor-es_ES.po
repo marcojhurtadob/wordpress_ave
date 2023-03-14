@@ -1,0 +1,40 @@
+# Translation of Plugins - Make Column Clickable Elementor - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Make Column Clickable Elementor - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-12-16 14:26:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Make Column Clickable Elementor - Development (trunk)\n"
+
+#: includes/class-column-clickable.php:44
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: includes/class-column-clickable.php:39
+msgid "Column Link"
+msgstr "Enlace de la columna"
+
+#. Author URI of the plugin
+msgid "https://fernandoacosta.net/?utm_source=wp-org&utm_medium=site&utm_campaign=make-column-clickable"
+msgstr "https://fernandoacosta.net/?utm_source=wp-org&utm_medium=site&utm_campaign=make-column-clickable"
+
+#. Author of the plugin
+msgid "Fernando Acosta"
+msgstr "Fernando Acosta"
+
+#. Description of the plugin
+msgid "Simple: allow users to click in the whole column instead of individual elements"
+msgstr "Sencillo: permite a los usuarios hacer clic en toda la columna en lugar de cada uno de los elementos"
+
+#. Plugin URI of the plugin
+msgid "https://fernandoacosta.net/make-column-clickable-elementor"
+msgstr "https://fernandoacosta.net/make-column-clickable-elementor"
+
+#. Plugin Name of the plugin
+msgid "Make Column Clickable Elementor"
+msgstr "Make Column Clickable Elementor"
