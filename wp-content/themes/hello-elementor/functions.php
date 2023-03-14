@@ -1166,118 +1166,236 @@ function bgwp_block_account_page() {
 
 
 
+// Incluir Font Awesome en WordPress
+function include_font_awesome() {
+  wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css', array(), '6.1.0');
+}
+add_action('wp_enqueue_scripts', 'include_font_awesome');
+add_action('admin_enqueue_scripts', 'include_font_awesome');
 
 
-
-
-
-
-
-add_filter('manage_users_columns', 'add_user_site_column');
-add_action('manage_users_custom_column', 'display_user_site_column', 10, 3);
-add_action('admin_head', 'user_site_button_css');
-add_action('admin_footer', 'user_site_button_js');
-add_action('admin_action_create_user_site', 'create_user_site');
-
-function add_user_site_column($columns) {
-  $columns['user_site'] = 'Site';
-  return $columns;
+// Agregar columna a la lista de usuarios
+add_filter('manage_users_columns', 'add_custom_user_column');
+function add_custom_user_column($column_headers) {
+    $column_headers['sitio_en_revision'] = 'Revisión de datos';
+    return $column_headers;
 }
 
-function display_user_site_column($value, $column_name, $user_id) {
-  if ('user_site' == $column_name && get_user_meta($user_id, 'active_site', true) == '1') {
-    $value = '<a href="' . wp_nonce_url('admin.php?action=create_user_site&user_id=' . $user_id, 'create_user_site') . '" class="button button-primary">Create Site</a>';
-  }
-  return $value;
+// Rellenar la columna personalizada
+add_action('manage_users_custom_column', 'fill_custom_user_column', 10, 3);
+function fill_custom_user_column($value, $column_name, $user_id) {
+    if ('sitio_en_revision' == $column_name) {
+        $sitio_en_revision = get_user_meta($user_id, 'sitio_en_revision', true);
+        if (!empty($sitio_en_revision)) {
+            if (current_user_can('manage_options')) { // Verifica si el usuario actual es superadministrador
+                $output = '<div class="alert-custom">';
+                $output .= '<i class="fas fa-exclamation-circle"></i>';
+                $output .= 'Usuario envió datos a revisión';
+                $output .= '</div>';
+
+                return $output;
+            }
+        }
+    }
+    return $value;
 }
 
-function user_site_button_css() {
-  global $pagenow;
-  if ($pagenow == 'users.php') {
-    echo '<style>.column-user_site { width: 10%; }</style>';
-  }
-}
-
-function user_site_button_js() {
-  global $pagenow;
-  if ($pagenow == 'users.php') {
-    $user_id = isset($_GET['user_id']) ? $_GET['user_id'] : '';
-    ?>
-    <script>
-      jQuery(document).ready(function($) {
-        $('a[href*="action=create_user_site"]').click(function(event) {
-          event.preventDefault();
-          var siteNameField = $('#create-site-form').find('input[name="site_name"]');
-          var siteName = siteNameField.val();
-          var siteUrl = normalize_url(siteName);
-          var createSiteForm = $('<form>', {
-            'action': '<?php echo esc_url(admin_url('network/site-new.php')); ?>',
-            'method': 'post',
-            'target': '_blank'
-          }).append($('<input>', {
-            'type': 'hidden',
-            'name': 'action',
-            'value': 'create-site'
-          })).append($('<input>', {
-            'type': 'hidden',
-            'name': 'site_name',
-            'value': '<?php echo esc_attr($site_name); ?>'
-          })).append($('<input>', {
-            'type': 'hidden',
-            'name': 'site_url',
-            'value': siteUrl
-          })).append($('<input>', {
-            'type': 'hidden',
-            'name': 'site_email',
-            'value': '<?php echo esc_attr(get_userdata($user_id)->user_email); ?>'
-          })).append($('<input>', {
-            'type': 'submit'
-          })).appendTo('body');
-          createSiteForm.submit();
-        });
-      });
-
-      function normalize_url(str) {
-        str = str.replace(' ', '-');
-        str = str.toLowerCase();
-        str = str.replace(/[^a-z0-9\-]/g, '');
-        return str;
+// Incluir CSS personalizado en el panel de administración de WordPress
+function custom_admin_css() {
+  echo '
+  <style>
+      .alert-custom {
+          display: inline-flex;
+          align-items: center;
+          padding: 6px 12px;
+          background-color: #e1f5fe;
+          border-radius: 4px;
+          color: #01579b;
+          font-weight: bold;
       }
-    </script>
-    <?php
-  }
+
+      .alert-custom i {
+          margin-right: 8px;
+      }
+  </style>
+  ';
 }
-function create_user_site() {
-  if (!isset($_REQUEST['_wpnonce']) || !wp_verify_nonce($_REQUEST['_wpnonce'], 'create_user_site')) {
-    wp_die('Security check');
+add_action('admin_head', 'custom_admin_css');
+
+
+
+
+// Mostrar campos personalizados en el perfil de usuario
+function show_custom_user_fields($user) {
+  // Verificar si el usuario actual es superadministrador
+  if (!current_user_can('manage_options')) {
+      return;
   }
 
-  $user_id = isset($_GET['user_id']) ? $_GET['user_id'] : '';
-  if (!$user_id) {
-    wp_die('User not found');
-  }
+  $bgwp_image_url = get_user_meta($user->ID, 'bgwp_image_url', true);
+  $nombre_del_sitio_web = get_user_meta($user->ID, 'nombre_del_sitio_web', true);
+  $colores_web = get_user_meta($user->ID, 'colores_web', true);
+  $datos_contacto = get_user_meta($user->ID, 'datos_contacto', true);
+  $redes_sociales = get_user_meta($user->ID, 'redes_sociales', true);
+  $ubicacion = get_user_meta($user->ID, 'ubicacion', true);
 
-  if (get_user_meta($user_id, 'active_site', true) != '1') {
-    wp_die('Site creation not allowed');
-  }
+  // Decodificar JSON
+  $colores_web = json_decode($colores_web, true);
+  $datos_contacto = json_decode($datos_contacto, true);
+  $redes_sociales = json_decode($redes_sociales, true);
+  $ubicacion = json_decode($ubicacion, true);
 
-  $site_name = get_user_meta($user_id, 'nombre_del_sitio_web', true);
-  if (!$site_name) {
-    wp_die('Site name not found');
-  }
+  // Mostrar los campos en el perfil
+  ?>
+  <h3>Campos personalizados</h3>
+  <table class="form-table">
+      <tr>
+          <th><label>Imagen</label></th>
+          <td>
+              <?php if ($bgwp_image_url): ?>
+                  <img src="<?php echo esc_url($bgwp_image_url); ?>" alt="Imagen personalizada" width="200">
+              <?php else: ?>
+                  <p>No hay imagen disponible.</p>
+              <?php endif; ?>
+          </td>
+      </tr>
+      <tr>
+          <th><label>Nombre del sitio web</label></th>
+          <td><p><?php echo esc_html($nombre_del_sitio_web); ?></p></td>
+      </tr>
+      <tr>
+          <th><label>Colores web</label></th>
+          <td><pre><?php echo esc_html(json_encode($colores_web, JSON_PRETTY_PRINT)); ?></pre></td>
+      </tr>
+      <tr>
+          <th><label>Datos de contacto</label></th>
+          <td><pre><?php echo esc_html(json_encode($datos_contacto, JSON_PRETTY_PRINT)); ?></pre></td>
+      </tr>
+      <tr>
+          <th><label>Redes sociales</label></th>
+          <td><pre><?php echo esc_html(json_encode($redes_sociales, JSON_PRETTY_PRINT)); ?></pre></td>
+      </tr>
+      <tr>
+          <th><label>Ubicación</label></th>
+          <td><pre><?php echo esc_html(json_encode($ubicacion, JSON_PRETTY_PRINT)); ?></pre></td>
+      </tr>
+  </table>
+  <?php
+// Agregar botones "APROBAR" y "DENEGAR" en el perfil del usuario solo si el usermeta 'sitio_en_revision' no está vacío
+$sitio_en_revision = get_user_meta($user->ID, 'sitio_en_revision', true);
+if (!empty($sitio_en_revision)) {
+?>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Crear botones "APROBAR" y "DENEGAR"
+        var approveButton = document.createElement('button');
+        approveButton.textContent = 'APROBAR';
+        approveButton.classList.add('button', 'button-primary', 'custom-user-action');
+        approveButton.setAttribute('data-action', 'approve');
 
-  // Normalize site name for use as URL
-  $site_url = normalize_url($site_name);
+        var denyButton = document.createElement('button');
+        denyButton.textContent = 'DENEGAR';
+        denyButton.classList.add('button', 'button-secondary', 'custom-user-action');
+        denyButton.setAttribute('data-action', 'deny');
 
-  // Redirect to site creation form with user email as admin email and site name as title
-  $user_email = get_userdata($user_id)->user_email;
-  $args = array(
-    'action' => 'create-site',
-    'site_title' => $site_name,
-    'user_email' => $user_email,
-    'site_url' => $site_url
-  );
-  $url = add_query_arg($args, network_admin_url('site-new.php'));
-  wp_redirect($url);
-  exit();
+        // Insertar botones en la parte superior derecha
+        var submitRow = document.querySelector('.submit');
+        submitRow.insertBefore(approveButton, submitRow.firstChild);
+        submitRow.insertBefore(denyButton, submitRow.firstChild);
+
+        // Escuchar clics en los botones
+        document.querySelectorAll('.custom-user-action').forEach(function(button) {
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                var action = event.target.getAttribute('data-action');
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', ajaxurl, true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        alert('Correo enviado: ' + xhr.responseText);
+                        // Recargar la página para ocultar los botones
+                        location.reload();
+                    }
+                };
+
+                xhr.send('action=custom_user_action&user_id=' + <?php echo $user->ID; ?> + '&user_action=' + action);
+            });
+        });
+    });
+</script>
+<?php
 }
+}
+add_action('edit_user_profile', 'show_custom_user_fields');
+add_action('show_user_profile', 'show_custom_user_fields');
+
+// Manejar acciones AJAX para los botones "APROBAR" y "DENEGAR"
+function handle_custom_user_action() {
+  if (!current_user_can('manage_options')) {
+      return;
+  }
+
+  $user_id = intval($_POST['user_id']);
+  $user_action = sanitize_text_field($_POST['user_action']);
+
+  // Cambiar el usermeta 'sitio_en_revision' a vacío
+  update_user_meta($user_id, 'sitio_en_revision', '');
+
+  // Enviar correo al usuario
+  $user_info = get_userdata($user_id);
+  $to = $user_info->user_email;
+  $subject = 'Cambios en tu perfil';
+
+  if ($user_action === 'approve') {
+      $message = 'Cambios aprobados';
+  } else {
+      $message = 'Cambios denegados';
+  }
+
+  wp_mail($to, $subject, $message);
+
+  echo $message;
+  wp_die();
+}
+add_action('wp_ajax_custom_user_action', 'handle_custom_user_action');
+
+
+
+
+
+
+
+
+
+
+// Ocultar campos predeterminados del perfil de usuario en el panel de administración de WordPress
+function hide_default_user_fields() {
+  // Verificar si el usuario actual es superadministrador
+  if (!current_user_can('manage_options')) {
+      return;
+  }
+
+  echo '
+  <style>
+      /* Editor visual */
+      .user-rich-editing-wrap,
+      /* Resaltado de sintaxis */
+      .user-syntax-highlighting-wrap,
+      /* Esquema de color de administración */
+      .user-admin-color-wrap,
+      /* Atajos de teclado */
+      .user-comment-shortcuts-wrap,
+      /* Idioma */
+      .user-language-wrap,
+      /* Información biográfica */
+      .user-description-wrap,
+      /* Contraseñas de aplicación */
+      .user-application-passwords-wrap {
+          display: none !important;
+      }
+  </style>
+  ';
+}
+add_action('admin_head-profile.php', 'hide_default_user_fields');
